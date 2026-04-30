@@ -13,5 +13,6 @@ public class CreditoBasico {
           } else {
               System.out.println("Credito Basico Negado!");
            }
+        sc.close();
     }
 }

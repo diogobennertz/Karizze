@@ -54,5 +54,6 @@ public class CreditoAvancado {
         }
 
         System.out.println(msg);
+        sc.close();
     }
 }

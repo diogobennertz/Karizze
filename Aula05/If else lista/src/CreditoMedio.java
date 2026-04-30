@@ -20,5 +20,6 @@ public class CreditoMedio {
         } else {
             System.out.println("Crédito Negado!");
         }
+        sc.close();
     }
 }
