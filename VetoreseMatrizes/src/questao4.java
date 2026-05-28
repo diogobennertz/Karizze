@@ -35,7 +35,11 @@ public class questao4 {
                 qtd_otimo++;
             }
         }
-        System.out.println("A Média de Idades das Pesoas Que Disseram Ótimo: " + media_otimo/qtd_otimo);
+        if (qtd_otimo==0){
+            System.out.println("A Média de Idades das Pesoas Que Disseram Ótimo: 0");
+        }else {
+            System.out.println("A Média de Idades das Pesoas Que Disseram Ótimo: " + media_otimo / qtd_otimo);
+        }
         System.out.println("A quantidade de pessoas que respondeu regular: "+ qtd_regular);
         System.out.println("A porcentagem de pessoas que respondeu bom entre todos os espectadores: " + (qtd_bom*100)/15 + "%");
         leitor.close();
