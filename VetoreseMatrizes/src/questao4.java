@@ -18,7 +18,7 @@ public class questao4 {
     double media_otimo = 0.0;
     int nota = 0;
     int qtd_regular = 0;
-    int qtd_bom = 0;
+    double qtd_bom = 0;
     int qtd_otimo = 0;
         for (int i = 0; i < 16; i++) {
             System.out.println("Informe Sua Idade: ");
@@ -37,6 +37,7 @@ public class questao4 {
         }
         System.out.println("A Média de Idades das Pesoas Que Disseram Ótimo: " + media_otimo/qtd_otimo);
         System.out.println("A quantidade de pessoas que respondeu regular: "+ qtd_regular);
-        System.out.println("A porcentagem de pessoas que respondeu bom entre todos os espectadores: " + (qtd_bom*100)/16 + "%");
+        System.out.println("A porcentagem de pessoas que respondeu bom entre todos os espectadores: " + (qtd_bom*100)/15 + "%");
+        leitor.close();
     }
 }
